@@ -1,0 +1,119 @@
+body{
+  font-family: 'Indie Flower', cursive !important;
+  background-color: rgb(118, 125, 140) !important;
+}
+
+
+
+header{
+  text-align: center;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url('images/cd-cd.jpg')right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  border: 10px;
+}
+
+header a{
+  font-size: 25px;
+
+}
+
+header h1{
+
+  color: white;
+}
+
+.cv h1 a{
+
+  color:white;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 10px;
+  text-decoration: none !important;
+  transition: 1.5s;
+
+}
+
+.cv h1 a:hover{
+
+  background: rgba(231, 231, 300, 0.20);
+}
+
+.about{
+  background: rgb(61, 113, 245);
+  margin: 40px auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.about:hover{
+  background: rgb(117, 104, 170);
+}
+
+.about h1{
+  font-size: 22px;
+  padding: 10px;
+  color:White;
+}
+
+
+.work{
+  background: rgba(73, 128, 185, 1);
+  margin: 40px auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  transition: 1.7s;
+}
+
+.work:hover{
+  background: rgba(23, 190, 219, 0.74);
+}
+
+.work h1{
+  font-size: 22px;
+  padding: 10px;
+  color:White;
+}
+
+.languages{
+  background: rgba(73, 128, 185, 1);
+  margin: 40px auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  transition: 1.2s;
+
+}
+
+.languages:hover{
+  background: rgba(119, 162, 70, 0.85);
+}
+
+
+.languages h1{
+  text-align:center;
+  font-size: 22px;
+  padding: 22px;
+  color:White;
+}
+
+.Coding{
+  text-align: center;
+  background: rgba(95, 123, 152, 1);
+  margin: 40px auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  transition: 1.2s;
+}
+.Coding:hover{
+  background:rgba(132, 95, 237, 0.57);
+}
+
+.Coding h1{
+  font-size: 22px;
+  padding: 10px;
+  color:White;
+}
+
+.inline{display: inline-block}
